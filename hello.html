@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello</title>
+        <script>
+            function color(){
+                let colorname = document.querySelector('#cname').value;
+                document.querySelector('h1').style.color = colorname;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Hello</h1>
+
+        <form>
+            <input id="cname" type="text" placeholder="write your favorite color">
+        </form>
+        <button onclick="color()">Click here</button>
+    </body>
+</html>
